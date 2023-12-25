@@ -1,0 +1,72 @@
+body {
+  background-color: rgb(189, 189, 189);
+  
+}
+.order-summery-main{
+  margin:50px auto;
+ 
+  width: 500px;
+  height: 400px;
+  border: 3px solid rgb(20, 19, 17);
+  border-radius: 10px;
+  color:rgb(0, 0, 0);
+  
+  
+}
+.cart-summery-container{
+  padding-top:100px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+.total-cost-text{
+
+  color: rgb(7, 7, 7);
+  font-size: 35px;
+  font-weight: bold;
+}
+/* Basic styling to simulate credit card form */
+.credit-card {
+  margin-bottom: 20px;
+}
+
+form{
+  width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+}
+.credit-card label,
+.card-details label {
+  display: inline-block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.credit-card input,
+.card-details input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 30px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+
+button:hover {
+  background-color: #0056b3;
+}
